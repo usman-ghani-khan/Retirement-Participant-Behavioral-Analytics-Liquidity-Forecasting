@@ -105,6 +105,3 @@ By converting the timeline into a datetime index and applying the `.resample()` 
 
 ### Targeted Outreach
 - "Emergency Fund" education and hardship-prevention tools should be prioritized for the **Fragile** cluster to reduce plan leakage
-
-### Automated Monitoring
-- Implement the SQL–Python bridge as a real-time monitoring tool to flag unusual loan activity patterns
