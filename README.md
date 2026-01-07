@@ -57,6 +57,22 @@ Used to connect the SQL database to the analytical environment
 
 ---
 
+## 📂 Repository Structure
+
+- `data_gen.py`  
+  Script to generate the initial CSV files
+
+- `database_setup.sql`  
+  SQL scripts for PostgreSQL table creation and joins
+
+- `analysis_master.ipynb`  
+  Primary Jupyter Notebook containing clustering and time series analysis
+
+- `assets/`  
+  Images of generated plots
+
+  ---
+
 ## 📊 Key Findings & Analytics
 
 ### 1. Participant Segmentation (Clustering)
@@ -92,19 +108,3 @@ By converting the timeline into a datetime index and applying the `.resample()` 
 
 ### Automated Monitoring
 - Implement the SQL–Python bridge as a real-time monitoring tool to flag unusual loan activity patterns
-
----
-
-## 📂 Repository Structure
-
-- `data_gen.py`  
-  Script to generate the initial CSV files
-
-- `database_setup.sql`  
-  SQL scripts for PostgreSQL table creation and joins
-
-- `analysis_master.ipynb`  
-  Primary Jupyter Notebook containing clustering and time series analysis
-
-- `assets/`  
-  Images of generated plots
